@@ -8,9 +8,11 @@
 /* Basic body styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Header styles */
@@ -88,15 +90,19 @@ footer {
 }
 .image-container {
     position: relative;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
     overflow: hidden; /* Hide overflow for fade effect */
-    height: 400px; /* Adjust height as needed */
 }
 
 .fade-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 100%;
     height: auto; /* Maintain aspect ratio */
-    position: absolute;
-    top: 0;
-    left: 0;
+    min-height: 100%; /* Ensure it covers the container */
+    min-width: 100%; /* Ensure it covers the container */
+    transform: translate(-50%, -50%); /* Center the image */
     transition: opacity 1s ease; /* Smooth transition */
 }
