@@ -31,7 +31,33 @@
             bottom: 0;
             width: 100%;
         }
+        /* Analytics section styles */
+        .analytics-info {
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5em;
+            margin: 2em 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .analytics-info h2 {
+            color: #0073e6;
+            margin-bottom: 1em;
+        }
+
+        .analytics-info p {
+            color: #555;
+            line-height: 1.5;
+        }
     </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'YOUR_TRACKING_ID');
+    </script>    
 </head>
 <body>
 
@@ -41,6 +67,12 @@
 
 <main>
     <p>Hello! This is my personal website where I showcase my projects and blog posts. Stay tuned for more content.</p>
+
+    <!-- Analytics Section -->
+    <section class="analytics-info">
+        <h2>Website Analytics</h2>
+        <p>This website uses Google Analytics to monitor traffic and improve user experience.</p>
+    </section>
 </main>
 
 <footer>
