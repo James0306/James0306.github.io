@@ -109,3 +109,29 @@ footer {
     transform: translate(-50%, -50%); /* Center the image */
     transition: opacity 1s ease; /* Smooth transition */
 }
+
+/* Styles for Mobile Devices */
+@media (max-width: 768px) {
+    .image-container {
+        height: 50vh; /* Adjust height for mobile */
+    }
+
+    main {
+        padding: 1em; /* Reduce padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjust heading size for mobile */
+    }
+}
+
+/* Styles for Tablets and Larger Screens */
+@media (min-width: 769px) {
+    main {
+        padding: 2em; /* More padding for larger screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Larger heading size for desktops */
+    }
+}
