@@ -86,3 +86,17 @@ footer {
     color: #555;
     line-height: 1.5;
 }
+.image-container {
+    position: relative;
+    overflow: hidden; /* Hide overflow for fade effect */
+    height: 400px; /* Adjust height as needed */
+}
+
+.fade-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease; /* Smooth transition */
+}
