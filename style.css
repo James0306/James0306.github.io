@@ -93,13 +93,16 @@ footer {
     height: 100vh; /* Full viewport height */
     width: 100vw; /* Full viewport width */
     overflow: hidden; /* Hide overflow for fade effect */
+    display: flex; /* Use flexbox to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 .fade-image {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
+    width: 100%; /* Fill the width */
     height: auto; /* Maintain aspect ratio */
     min-height: 100%; /* Ensure it covers the container */
     min-width: 100%; /* Ensure it covers the container */
