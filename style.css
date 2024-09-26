@@ -17,95 +17,97 @@ body {
 
 /* Header styles */
 header {
-    background-color: #0073e6; /* Header background color */
-    color: white; /* Text color for header */
-    padding: 1.5em 0; /* Padding for header */
-    text-align: center; /* Center header text */
+    background-color: #0073e6; /* Blue header */
+    color: white; /* White text */
+    padding: 1.5em 0; /* Padding for aesthetics */
+    text-align: center; /* Centered header text */
 }
 
 /* Navigation styles */
 nav {
-    background-color: #0073e6; /* Match the nav background color */
+    background-color: #0073e6; /* Blue nav background */
     padding: 1em; /* Padding for aesthetics */
     text-align: center; /* Center navigation */
 }
 
 nav ul {
-    list-style: none; /* Remove bullet points from list */
-    padding: 0; /* Remove padding from list */
-    margin: 0; /* Remove margin from list */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
 }
 
 nav ul li {
     display: inline; /* Display list items in a row */
-    margin: 0 15px; /* Add margin between tabs */
+    margin: 0 15px; /* Space between items */
 }
 
 nav ul li a {
     color: white; /* Link color */
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; /* No underline */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Main content styles */
 main {
-    padding: 2em; /* Keep padding for aesthetics */
-    max-width: 800px; /* Maintain a maximum width for readability */
-    margin: 0 auto; /* Center the main content but not the text */
+    padding: 2em; /* Padding for aesthetics */
+    max-width: 800px; /* Maximum width for readability */
+    margin: 0 auto; /* Center the main container */
     background: white; /* White background for the main content */
     border-radius: 8px; /* Optional rounding of corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
     text-align: left; /* Align text to the left */
 }
 
-
 /* Footer styles */
 footer {
-    background-color: #0073e6; /* Footer background color */
-    color: white; /* Text color for footer */
-    text-align: center; /* Center footer text */
-    padding: 1em; /* Add padding to footer */
-    position: relative; /* Ensure footer stays at bottom */
-    bottom: 0;
-    width: 100%;
-    margin-top: 2em; /* Space above footer */
+    background-color: #0073e6; /* Blue footer */
+    color: white; /* White text */
+    text-align: center; /* Centered footer text */
+    padding: 1em; /* Padding for aesthetics */
 }
 
+/* Analytics section styles */
+.analytics-info {
+    background-color: #f9f9f9; /* Light background for analytics section */
+    border: 1px solid #e0e0e0; /* Border for definition */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1.5em; /* Padding for aesthetics */
+    margin: 2em 0; /* Margin for spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
 
-/* Image styles */
+.analytics-info h2 {
+    color: #0073e6; /* Header color */
+    margin-bottom: 1em; /* Space below the header */
+}
+
+.analytics-info p {
+    color: #555; /* Darker grey for text */
+    line-height: 1.5; /* Line height for readability */
+}
+
+/* Image container styles */
 .image-container {
     position: relative;
-    height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
+    height: auto; /* Auto height */
+    width: 100%; /* Full width */
     overflow: hidden; /* Hide overflow */
-    display: flex; /* Use flexbox to center the image */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
 }
 
 .fade-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     width: 100%; /* Fill the width */
     height: auto; /* Maintain aspect ratio */
-    min-height: 100%; /* Ensure it covers the container */
-    min-width: 100%; /* Ensure it covers the container */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: opacity 1s ease; /* Smooth transition */
+    transition: opacity 1s ease; /* Smooth transition for fade effect */
 }
-
-/* Additional styles can go here */
 
 /* Styles for Mobile Devices */
 @media (max-width: 768px) {
-    .image-container {
-        height: 50vh; /* Adjust height for mobile */
-    }
-
     main {
         padding: 1em; /* Reduce padding for smaller screens */
     }
