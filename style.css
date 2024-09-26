@@ -93,10 +93,8 @@ footer {
 .image-container {
     position: relative;
     height: auto; /* Auto height */
-    width: 100%; /* Full width */
+    width: auto; /* Full width */
     overflow: hidden; /* Hide overflow */
-    display: flex; /* Flexbox for centering */
-    align-items: center; /* Center image vertically */
 }
 
 .fade-image {
