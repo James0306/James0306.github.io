@@ -8,26 +8,23 @@
 /* Basic body styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Header styles */
 header {
-    background-color: #0073e6;
-    color: white;
-    padding: 1em; /* Use the padding from index.html */
-    text-align: center;
+    background-color: #0073e6; /* Blue background */
+    color: white; /* White text */
+    padding: 1em; /* Padding for spacing */
+    text-align: center; /* Center the header text */
+    font-weight: bold; /* Bold text */
 }
 
 /* Navigation styles */
 nav {
-    background-color: #eaeaea; /* Optional background for the nav */
-    margin: 1em 0;
-    padding: 0.5em;
+    background-color: #0073e6; /* Blue background for navigation */
+    padding: 1em; /* Padding for aesthetics */
     text-align: center; /* Center align navigation items */
 }
 
@@ -42,55 +39,32 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #0073e6;
-    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    font-weight: bold; /* Bold text */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Hover effect */
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Main content styles */
 main {
-    padding: 2em;
+    padding: 2em; /* Padding for main content */
     max-width: 800px; /* Optional max width */
     margin: auto; /* Center main content */
-    background: white; /* Optional background for main */
-    border-radius: 8px; /* Optional rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    background: white; /* White background for main */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
 
 /* Footer styles */
 footer {
-    background-color: #0073e6;
-    color: white;
-    text-align: center;
-    padding: 1em; /* Use the padding from index.html */
-    position: relative; /* Change from fixed to relative */
-    bottom: 0;
-    width: 100%;
-    margin-top: 2em; /* Optional margin */
-}
-
-/* Analytics section styles */
-.analytics-info {
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 1.5em;
-    margin: 2em 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.analytics-info h2 {
-    color: #0073e6;
-    margin-bottom: 1em;
-}
-
-.analytics-info p {
-    color: #555;
-    line-height: 1.5;
+    background-color: #0073e6; /* Blue background for footer */
+    color: white; /* White text */
+    text-align: center; /* Center the footer text */
+    padding: 1em; /* Padding for spacing */
+    font-weight: bold; /* Bold text */
 }
 
 /* Image styles */
@@ -98,7 +72,7 @@ footer {
     position: relative;
     height: 100vh; /* Full viewport height */
     width: 100vw; /* Full viewport width */
-    overflow: hidden; /* Hide overflow for fade effect */
+    overflow: hidden; /* Hide overflow */
     display: flex; /* Use flexbox to center the image */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -115,6 +89,8 @@ footer {
     transform: translate(-50%, -50%); /* Center the image */
     transition: opacity 1s ease; /* Smooth transition */
 }
+
+/* Additional styles can go here */
 
 /* Styles for Mobile Devices */
 @media (max-width: 768px) {
