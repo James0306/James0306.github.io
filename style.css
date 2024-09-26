@@ -8,64 +8,67 @@
 /* Basic body styles */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Header styles */
 header {
-    background-color: #0073e6; /* Blue background */
-    color: white; /* White text */
-    padding: 1em; /* Padding for spacing */
-    text-align: center; /* Center the header text */
-    font-weight: bold; /* Bold text */
+    background-color: #0073e6; /* Header background color */
+    color: white; /* Text color for header */
+    padding: 1.5em 0; /* Padding for header */
+    text-align: center; /* Center header text */
 }
 
 /* Navigation styles */
 nav {
-    background-color: #0073e6; /* Blue background for navigation */
+    background-color: #0073e6; /* Match the nav background color */
     padding: 1em; /* Padding for aesthetics */
-    text-align: center; /* Center align navigation items */
+    text-align: center; /* Center navigation */
 }
 
 nav ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
+    list-style: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding from list */
+    margin: 0; /* Remove margin from list */
 }
 
 nav ul li {
-    display: inline; /* Display list items inline */
-    margin: 0 15px; /* Space between items */
+    display: inline; /* Display list items in a row */
+    margin: 0 15px; /* Add margin between tabs */
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* White text */
-    font-weight: bold; /* Bold text */
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; /* Add underline on hover */
 }
 
 /* Main content styles */
 main {
-    padding: 2em; /* Padding for main content */
-    max-width: 800px; /* Optional max width */
+    padding: 2em; /* Ensure there’s some padding */
+    max-width: 800px; /* Limit main content width */
     margin: auto; /* Center main content */
-    background: white; /* White background for main */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
 
 /* Footer styles */
 footer {
-    background-color: #0073e6; /* Blue background for footer */
-    color: white; /* White text */
-    text-align: center; /* Center the footer text */
-    padding: 1em; /* Padding for spacing */
-    font-weight: bold; /* Bold text */
+    background-color: #0073e6; /* Footer background color */
+    color: white; /* Text color for footer */
+    text-align: center; /* Center footer text */
+    padding: 1em; /* Add padding to footer */
+    position: relative; /* Ensure footer stays at bottom */
+    bottom: 0;
+    width: 100%;
+    margin-top: 2em; /* Space above footer */
 }
+
 
 /* Image styles */
 .image-container {
