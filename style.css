@@ -19,33 +19,26 @@ body {
 header {
     background-color: #0073e6;
     color: white;
-    padding: 1.5em 0;
+    padding: 1em; /* Use the padding from index.html */
     text-align: center;
-}
-
-/* Main content styles */
-main {
-    padding: 2em;
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation styles */
 nav {
+    background-color: #eaeaea; /* Optional background for the nav */
     margin: 1em 0;
-    text-align: center;
+    padding: 0.5em;
+    text-align: center; /* Center align navigation items */
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Space between items */
 }
 
 nav ul li a {
@@ -55,7 +48,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Hover effect */
+}
+
+/* Main content styles */
+main {
+    padding: 2em;
+    max-width: 800px; /* Optional max width */
+    margin: auto; /* Center main content */
+    background: white; /* Optional background for main */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
 /* Footer styles */
@@ -63,12 +66,13 @@ footer {
     background-color: #0073e6;
     color: white;
     text-align: center;
-    padding: 1em 0;
-    position: relative;
+    padding: 1em; /* Use the padding from index.html */
+    position: relative; /* Change from fixed to relative */
     bottom: 0;
     width: 100%;
-    margin-top: 2em;
+    margin-top: 2em; /* Optional margin */
 }
+
 /* Analytics section styles */
 .analytics-info {
     background-color: #f9f9f9;
@@ -88,6 +92,8 @@ footer {
     color: #555;
     line-height: 1.5;
 }
+
+/* Image styles */
 .image-container {
     position: relative;
     height: 100vh; /* Full viewport height */
