@@ -95,7 +95,7 @@ footer {
 .image-container {
     position: relative;
     height: auto; /* Auto height */
-    width: auto; /* Full width */
+    width: 100%; /* Full width */
     overflow: hidden; /* Hide overflow */
 }
 
