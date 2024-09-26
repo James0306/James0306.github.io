@@ -52,10 +52,15 @@ nav ul li a:hover {
 
 /* Main content styles */
 main {
-    padding: 2em; /* Ensure there’s some padding */
-    max-width: 800px; /* Limit main content width */
-    margin: auto; /* Center main content */
+    padding: 2em; /* Keep padding for aesthetics */
+    max-width: 800px; /* Maintain a maximum width for readability */
+    margin: 0 auto; /* Center the main content but not the text */
+    background: white; /* White background for the main content */
+    border-radius: 8px; /* Optional rounding of corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    text-align: left; /* Align text to the left */
 }
+
 
 /* Footer styles */
 footer {
