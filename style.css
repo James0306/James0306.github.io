@@ -96,7 +96,6 @@ footer {
     width: 100%; /* Full width */
     overflow: hidden; /* Hide overflow */
     display: flex; /* Flexbox for centering */
-    justify-content: center; /* Center image horizontally */
     align-items: center; /* Center image vertically */
 }
 
